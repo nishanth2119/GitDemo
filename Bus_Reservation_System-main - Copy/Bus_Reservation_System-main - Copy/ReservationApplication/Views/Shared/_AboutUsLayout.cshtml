@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Bus Reservation Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Bus Reservation Application", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--  <li>@Html.ActionLink("About Us", "About", "Home")</li>  -->
+                    <!--  <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li> -->
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("User"))
+                        {
+                            <li>@Html.ActionLink("Reserve Seats", "SelectBus", "User")</li>
+                            <li>@Html.ActionLink("My Reservations", "Reservations", "Reservations")</li>
+                        }
+
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li>@Html.ActionLink("Add Bus", "BusList", "Admin")</li>
+                            <li>@Html.ActionLink("Schedule Bus", "ScheduleBus", "Admin")</li>
+                            <li>@Html.ActionLink("Scheduled Bus List ", "ScheduleBusList", "Admin")</li>
+                            <li>@Html.ActionLink("All Reservations", "Reservations", "Reservations")</li>
+                        }
+
+                        <li>@Html.ActionLink("Logout", "Logout", "Auth")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Login", "Login", "Auth")</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <center><img src="data:image/png;base64,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" height="300" width="300" /> </center>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <div>
+
+        </div>
+        <footer>
+            <!-- <p>&copy; @DateTime.Now.Year - Bus Reservation Application</p> -->
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

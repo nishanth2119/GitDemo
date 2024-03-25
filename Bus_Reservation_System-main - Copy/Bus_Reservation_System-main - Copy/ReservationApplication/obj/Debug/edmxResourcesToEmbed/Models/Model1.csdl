@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BusReservationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BusDetails">
+    <Key>
+      <PropertyRef Name="BusId" />
+    </Key>
+    <Property Name="BusId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BusType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TotalSeats" Type="Int32" Nullable="false" />
+    <Property Name="BusName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ScheduleDetails" Relationship="Self.FK__ScheduleD__BusId__5CD6CB2B" FromRole="BusDetails" ToRole="ScheduleDetails" />
+    <NavigationProperty Name="BookingDetails" Relationship="BusReservationModel.FK__BookingDe__BusId__70DDC3D8" FromRole="BusDetails" ToRole="BookingDetails" />
+  </EntityType>
+  <EntityType Name="ScheduleDetails">
+    <Key>
+      <PropertyRef Name="ScheduleId" />
+    </Key>
+    <Property Name="ScheduleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DepartTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="ArrivalTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Fare" Type="Int32" Nullable="false" />
+    <Property Name="BookedSeats" Type="Int32" Nullable="false" />
+    <Property Name="AvailableSeats" Type="Int32" Nullable="false" />
+    <Property Name="Origin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Destination" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="BusDetails" Relationship="Self.FK__ScheduleD__BusId__5CD6CB2B" FromRole="ScheduleDetails" ToRole="BusDetails" />
+    <NavigationProperty Name="BookingDetails" Relationship="BusReservationModel.FK__BookingDe__Sched__71D1E811" FromRole="ScheduleDetails" ToRole="BookingDetails" />
+  </EntityType>
+  <EntityType Name="UserDetail">
+    <Key>
+      <PropertyRef Name="RegId" />
+    </Key>
+    <Property Name="RegId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmailId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="BookingDetails" Relationship="BusReservationModel.FK__BookingDe__RegId__6FE99F9F" FromRole="UserDetail" ToRole="BookingDetails" />
+  </EntityType>
+  <Association Name="FK__ScheduleD__BusId__5CD6CB2B">
+    <End Role="BusDetails" Type="Self.BusDetails" Multiplicity="1" />
+    <End Role="ScheduleDetails" Type="Self.ScheduleDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusDetails">
+        <PropertyRef Name="BusId" />
+      </Principal>
+      <Dependent Role="ScheduleDetails">
+        <PropertyRef Name="BusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BusReservationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BusDetails" EntityType="Self.BusDetails" />
+    <EntitySet Name="ScheduleDetails" EntityType="Self.ScheduleDetails" />
+    <EntitySet Name="UserDetail" EntityType="Self.UserDetail" />
+    <AssociationSet Name="FK__ScheduleD__BusId__5CD6CB2B" Association="Self.FK__ScheduleD__BusId__5CD6CB2B">
+      <End Role="BusDetails" EntitySet="BusDetails" />
+      <End Role="ScheduleDetails" EntitySet="ScheduleDetails" />
+    </AssociationSet>
+    <EntitySet Name="BookingDetails" EntityType="BusReservationModel.BookingDetails" />
+    <AssociationSet Name="FK__BookingDe__BusId__70DDC3D8" Association="BusReservationModel.FK__BookingDe__BusId__70DDC3D8">
+      <End Role="BusDetails" EntitySet="BusDetails" />
+      <End Role="BookingDetails" EntitySet="BookingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BookingDe__RegId__6FE99F9F" Association="BusReservationModel.FK__BookingDe__RegId__6FE99F9F">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="BookingDetails" EntitySet="BookingDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BookingDe__Sched__71D1E811" Association="BusReservationModel.FK__BookingDe__Sched__71D1E811">
+      <End Role="ScheduleDetails" EntitySet="ScheduleDetails" />
+      <End Role="BookingDetails" EntitySet="BookingDetails" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BookingDetails">
+    <Key>
+      <PropertyRef Name="BookingId" />
+    </Key>
+    <Property Name="BookingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RegId" Type="Int32" Nullable="false" />
+    <Property Name="BusId" Type="Int32" Nullable="false" />
+    <Property Name="Schedule" Type="Int32" Nullable="false" />
+    <Property Name="Fname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Lname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdProof" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SeatNo" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BusDetails" Relationship="BusReservationModel.FK__BookingDe__BusId__70DDC3D8" FromRole="BookingDetails" ToRole="BusDetails" />
+    <NavigationProperty Name="UserDetail" Relationship="BusReservationModel.FK__BookingDe__RegId__6FE99F9F" FromRole="BookingDetails" ToRole="UserDetail" />
+    <NavigationProperty Name="ScheduleDetails" Relationship="BusReservationModel.FK__BookingDe__Sched__71D1E811" FromRole="BookingDetails" ToRole="ScheduleDetails" />
+  </EntityType>
+  <Association Name="FK__BookingDe__BusId__70DDC3D8">
+    <End Type="BusReservationModel.BusDetails" Role="BusDetails" Multiplicity="1" />
+    <End Type="BusReservationModel.BookingDetails" Role="BookingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BusDetails">
+        <PropertyRef Name="BusId" />
+      </Principal>
+      <Dependent Role="BookingDetails">
+        <PropertyRef Name="BusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BookingDe__RegId__6FE99F9F">
+    <End Type="BusReservationModel.UserDetail" Role="UserDetail" Multiplicity="1" />
+    <End Type="BusReservationModel.BookingDetails" Role="BookingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="RegId" />
+      </Principal>
+      <Dependent Role="BookingDetails">
+        <PropertyRef Name="RegId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BookingDe__Sched__71D1E811">
+    <End Type="BusReservationModel.ScheduleDetails" Role="ScheduleDetails" Multiplicity="1" />
+    <End Type="BusReservationModel.BookingDetails" Role="BookingDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScheduleDetails">
+        <PropertyRef Name="ScheduleId" />
+      </Principal>
+      <Dependent Role="BookingDetails">
+        <PropertyRef Name="Schedule" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

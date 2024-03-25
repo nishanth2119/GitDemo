@@ -1,0 +1,38 @@
+﻿@model ReservationApplication.Models.ReservationsModel
+
+@{
+    ViewBag.Title = "Reservation Details";
+}
+
+<h2>Reservation Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(model => model.bookingDetails.Fname)</dt>
+        <dd>@Html.DisplayFor(model => model.bookingDetails.Fname)</dd>
+        <dt>@Html.DisplayNameFor(model => model.bookingDetails.Lname)</dt>
+        <dd>@Html.DisplayFor(model => model.bookingDetails.Lname)</dd>
+        <dt>@Html.DisplayNameFor(model => model.bookingDetails.BusDetails.BusName)</dt>
+        <dd>@Html.DisplayFor(model => model.bookingDetails.BusDetails.BusName)</dd>
+        <dt>@Html.DisplayNameFor(model => model.bookingDetails.SeatNo)</dt>
+        <dd>@Html.DisplayFor(model => model.bookingDetails.SeatNo)</dd>
+        <dt>@Html.DisplayNameFor(model => model.busDetails.BusType)</dt>
+        <dd>@Html.DisplayFor(model => model.busDetails.BusType)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.Date)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.Date)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.Fare)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.Fare)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.DepartTime)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.DepartTime)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.ArrivalTime)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.ArrivalTime)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.Origin)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.Origin)</dd>
+        <dt>@Html.DisplayNameFor(model => model.scheduleDetails.Destination)</dt>
+        <dd>@Html.DisplayFor(model => model.scheduleDetails.Destination)</dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Reservations")
+</p>

@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\scheduledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\scheduledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\views\\reservations\\reservationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\reservations\\reservationdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\bookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\busdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\busdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\webroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\webroleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\views\\user\\reserveseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\user\\reserveseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\reservations\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\reservations\\reservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\reservationsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\reservationsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|c:\\users\\2321698\\downloads\\bus_reservation_system-main\\bus_reservation_system-main - copy\\reservationapplication\\models\\selectbusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\models\\selectbusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\admin\\deletebus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\admin\\deletebus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\admin\\buslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\admin\\buslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\admin\\detailbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\admin\\detailbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\admin\\editbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\shared\\_aboutuslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\shared\\_aboutuslayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\reservationapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8426A02-7665-4EB6-9357-5B02C49FCFBC}|ReservationApplication\\ReservationApplication.csproj|solutionrelative:reservationapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScheduleDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\ScheduleDetails.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\ScheduleDetails.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\ScheduleDetails.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\ScheduleDetails.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwCIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:46:26.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDetail.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\UserDetail.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\UserDetail.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\UserDetail.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\UserDetail.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:38:36.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebRoleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\WebRoleProvider.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\WebRoleProvider.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\WebRoleProvider.cs",
+              "RelativeToolTip": "ReservationApplication\\WebRoleProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:38:06.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "ReservationApplication\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAlwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T03:46:53.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Reservations\\ReservationDetails.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Reservations\\ReservationDetails.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Reservations\\ReservationDetails.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Reservations\\ReservationDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T14:59:05.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\BookingDetails.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\BookingDetails.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\BookingDetails.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\BookingDetails.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA+wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:43:28.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusDetails.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\BusDetails.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\BusDetails.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\BusDetails.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\BusDetails.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T04:44:53.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reservations.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Reservations\\Reservations.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Reservations\\Reservations.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Reservations\\Reservations.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Reservations\\Reservations.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-24T14:59:22.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReserveSeats.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\User\\ReserveSeats.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\User\\ReserveSeats.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\User\\ReserveSeats.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\User\\ReserveSeats.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-25T03:52:40.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationsModel.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\ReservationsModel.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\ReservationsModel.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\ReservationsModel.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\ReservationsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T03:42:21.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:26:43.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectBusModel.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\SelectBusModel.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Models\\SelectBusModel.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Models\\SelectBusModel.cs",
+              "RelativeToolTip": "ReservationApplication\\Models\\SelectBusModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T03:42:24.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BusList.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\BusList.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Admin\\BusList.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\BusList.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Admin\\BusList.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T10:04:36.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DetailBus.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\DetailBus.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Admin\\DetailBus.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\DetailBus.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Admin\\DetailBus.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T10:03:46.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ReservationApplication\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAA5wEYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T09:55:15.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteBus.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\DeleteBus.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Admin\\DeleteBus.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\DeleteBus.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Admin\\DeleteBus.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T10:05:11.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditBus.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\EditBus.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Admin\\EditBus.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Admin\\EditBus.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Admin\\EditBus.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T10:06:11.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAUwCIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:39:58.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_AboutUsLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Shared\\_AboutUsLayout.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Shared\\_AboutUsLayout.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Shared\\_AboutUsLayout.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Shared\\_AboutUsLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:32:35.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:26:33.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ReservationApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ReservationApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:22:05.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:22:49.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "ReservationApplication\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\2321698\\Downloads\\Bus_Reservation_System-main\\Bus_Reservation_System-main - Copy\\ReservationApplication\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "ReservationApplication\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-22T09:22:26.629Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

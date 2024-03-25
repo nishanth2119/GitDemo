@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "ReserveSeats";
+}
+
+<h2>@ViewBag.BusDetails.BusName</h2>
+<div>
+    <div>
+        <table class="table">
+            <tr>
+                <th>
+                    <label>
+                        Origin
+                    </label>
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.Origin
+                </td>
+                <th>
+                    <label>
+                        Destination
+                    </label>
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.Destination
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Departure Date
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.Date
+                </td>
+                <th>
+                    <label>
+                        Fare
+                    </label>
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.Fare
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Departure Time
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.DepartTime
+                </td>
+                <th>
+                    <label>
+                        Arrival Time
+                    </label>
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.ArrivalTime
+                </td>
+            </tr>
+            <tr>
+               <th>
+                   <label>Bus Type</label>
+               </th>
+                <td>
+                    @ViewBag.BusDetails.BusType
+                </td>
+                <th>
+                    <label>
+                        Available Seats
+                    </label>
+                </th>
+                <td>
+                    @ViewBag.ScheduleDetails.AvailableSeats
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <br />
+        <h2>
+            Passenger Details
+        </h2>
+        @using (Html.BeginForm(FormMethod.Post))
+        {
+    <table class="table">
+        <tr>
+            <th>Sr. No.</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Id Proof</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td><input type="text" name="fname1" class="form-control" /></td>
+            <td><input type="text" name="lname1" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof1", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td><input type="text" name="fname2" class="form-control" /></td>
+            <td><input type="text" name="lname2" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof2", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td><input type="text" name="fname3" class="form-control" /></td>
+            <td><input type="text" name="lname3" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof3", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td><input type="text" name="fname4" class="form-control" /></td>
+            <td><input type="text" name="lname4" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof4", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td><input type="text" name="fname5" class="form-control" /></td>
+            <td><input type="text" name="lname5" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof5", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td><input type="text" name="fname6" class="form-control" /></td>
+            <td><input type="text" name="lname6" class="form-control" /></td>
+            <td>
+                @Html.DropDownList("idproof6", (IEnumerable<SelectListItem>)ViewData["ListItem"],
+                 htmlAttributes: new { @class = "form-control" })
+            </td>
+        </tr>
+    </table>
+              <div class="form-group">
+                      <div class="text-center">
+                          <input type="submit" value="Reserve Seats" class="btn btn-default" />
+                      </div>
+              </div>
+        }
+    </div>
+        
+</div>
+

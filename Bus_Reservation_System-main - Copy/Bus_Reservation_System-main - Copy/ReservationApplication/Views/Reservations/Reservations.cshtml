@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ReservationApplication.Models.ReservationsModel>
+@{
+    ViewBag.Title = "Reservations";
+}
+
+<h2>Reservations</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.bookingDetails.SeatNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.scheduleDetails.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.scheduleDetails.DepartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.scheduleDetails.Origin)
+        </th> 
+        <th>
+            @Html.DisplayNameFor(model => model.scheduleDetails.Destination)
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.bookingDetails.SeatNo)</td>
+            <td>@Html.DisplayFor(modelItem => item.scheduleDetails.Date)</td>
+            <td>@Html.DisplayFor(modelItem => item.scheduleDetails.DepartTime)</td>
+            <td>@Html.DisplayFor(modelItem => item.scheduleDetails.Origin)</td>
+            <td>@Html.DisplayFor(modelItem => item.scheduleDetails.Destination)</td>
+            <td>
+                <ul class="navbar-nav list-unstyled">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Details","ReservationDetails", new { id = item.bookingDetails.BookingId})</li>
+                        if (User.IsInRole("admin"))
+                        {
+                            <li>&nbsp; | @Html.ActionLink("Delete","ReservationDelete",new { id = item.bookingDetails.BookingId})</li>
+                        }
+                    }
+                </ul>
+            </td>
+        </tr>
+
+    }
+
+</table>

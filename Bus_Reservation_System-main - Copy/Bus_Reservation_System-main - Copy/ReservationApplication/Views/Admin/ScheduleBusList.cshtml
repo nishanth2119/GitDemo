@@ -1,0 +1,87 @@
+﻿@model IEnumerable<ReservationApplication.Models.ScheduleDetails>
+
+@{
+    ViewBag.Title = "Schedule Bus List";
+}
+
+<h2>ScheduleBusList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "ScheduleBus")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BusDetails.BusNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ArrivalTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fare)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookedSeats)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.AvailableSeats)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Origin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Destination)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.BusDetails.BusNo)
+        <br />
+        @Html.DisplayFor(modelItem => item.BusDetails.BusName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Date.Day)&nbsp;-
+        @Html.DisplayFor(modelItem => item.Date.Month)&nbsp;-
+        @Html.DisplayFor(modelItem => item.Date.Year)&nbsp;
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DepartTime)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ArrivalTime)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Fare)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.BookedSeats)
+    </td>
+    @*<td>
+        @Html.DisplayFor(modelItem => item.AvailableSeats)
+    </td>*@
+    <td>
+        @Html.DisplayFor(modelItem => item.Origin)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Destination)
+    </td>
+
+    <td>
+        @Html.ActionLink("Edit", "EditSchedule", new { id = item.ScheduleId }) |
+        @Html.ActionLink("Details", "DetailsSchedule", new { id = item.ScheduleId }) |
+        @Html.ActionLink("Delete", "DeleteSchedule", new { id = item.ScheduleId })
+    </td>
+</tr>
+}
+
+</table>

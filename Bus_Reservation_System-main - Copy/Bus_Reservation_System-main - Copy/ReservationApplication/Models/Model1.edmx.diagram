@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ece882c60bf4bafb41900de80813143" Name="Diagram1" ZoomLevel="58">
+        <EntityTypeShape EntityType="BusReservationModel.BusDetails" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusReservationModel.ScheduleDetails" Width="1.5" PointX="6.375" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BusReservationModel.UserDetail" Width="1.5" PointX="4.75" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="BusReservationModel.FK__ScheduleD__BusId__5CD6CB2B" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BusReservationModel.BookingDetails" Width="1.5" PointX="6.125" PointY="0.5" />
+        <AssociationConnector Association="BusReservationModel.FK__BookingDe__BusId__70DDC3D8" />
+        <AssociationConnector Association="BusReservationModel.FK__BookingDe__RegId__6FE99F9F" />
+        <AssociationConnector Association="BusReservationModel.FK__BookingDe__Sched__71D1E811" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
